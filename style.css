@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+small {
+  font-family: "Fredoka", sans-serif;
+}
+
+a,
+p,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 0, 0.2),
+    rgba(255, 165, 0, 0.3)
+  );
+}
+
+.navbar {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.navbar .nav_list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .nav_list .list_item .item_link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #17202a;
+  transition: 0.3s;
+}
+
+.navbar .nav_list .list_item .item_link:hover {
+  color: #008000;
+}
+
+.navbar .nav_list .btn_login {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 60px;
+  background-color: #008000;
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
+.navbar .nav_list .btn_login small {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar .nav_list .btn_login i {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.navbar .nav_list .btn_login:hover {
+  transform: scale(1);
+}
+
+.header_block {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_block .text_side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header_block .text_side h1 {
+  font-weight: 600;
+  font-size: 85px;
+  color: #17202a;
+}
+
+.header_block .text_side h1 span {
+  color: #008000;
+}
+
+.header_block .text_side p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #17202a;
+  opacity: 0.8;
+  line-height: 35px;
+  margin-top: 35px;
+}
+
+.header_block .text_side .btn_shop {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 15px 60px;
+  background-color: #008000;
+}
+
+.header_block .text_side .btn_shop small {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header_block .text_side .btn_shop i {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.header_block .img_side {
+  width: 40%;
+}
+
+.header_block .img_side img {
+  width: 100%;
+}
