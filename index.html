@@ -9,11 +9,14 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
     <title>Garden - Happy</title>
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <nav class="navbar">
         <a href="./index.html" class="logo">
@@ -34,12 +37,12 @@
           </li>
           <a href="#!" class="btn_login">
             <small>Login</small>
-            <i class='bx bx-log-in' ></i>
+            <i class="bx bx-log-in"></i>
           </a>
         </ul>
       </nav>
       <div class="header_block">
-        <div class="text_side">
+        <div class="text_side" data-aos="zoom-in-right">
           <h1>Make a <span>Beautiful Garden</span> with Your own Hand</h1>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
@@ -47,13 +50,45 @@
           </p>
           <a href="#!" class="btn_shop">
             <small>Shop Now</small>
-            <i class='bx bxs-cart'></i>
+            <i class="bx bxs-cart"></i>
           </a>
         </div>
-        <div class="img_side">
+        <div class="img_side" data-aos="zoom-in-left">
           <img src="./images/header-banner-img.png" alt="img" />
         </div>
       </div>
     </header>
+
+    <!-- main -->
+    <main class="main">
+      <section class="awesome">
+        <div class="awesome_title">
+          <h3>We Give Awesome Landscape Service.</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the thing.
+          </p>
+        </div>
+        <div class="awe_body_card">
+          <div class="awe_card_box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+            <b>25+ </b>
+            <small>Complete Project Per Month.</small>
+          </div>
+          <div class="awe_card_box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+            <b>10+ </b>
+            <small>Years Practical Experience.</small>
+          </div>
+          <div class="awe_card_box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+            <b>60+ </b>
+            <small>Awesome Team Members.</small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- js -->
+    <script src="./main.js"></script>
   </body>
 </html>

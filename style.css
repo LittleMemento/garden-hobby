@@ -38,6 +38,16 @@ button {
   );
 }
 
+.main {
+  width: 100%;
+  padding: 50px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 0, 0.2),
+    rgba(255, 165, 0, 0.3)
+  );
+}
+
 .navbar {
   width: 85%;
   margin: 0 auto;
@@ -93,6 +103,7 @@ button {
 .header_block {
   width: 85%;
   margin: 0 auto;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,4 +161,73 @@ button {
 
 .header_block .img_side img {
   width: 100%;
+}
+
+/* sections */
+
+.awesome {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.awesome .awesome_title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.awesome .awesome_title h3 {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #17202a;
+}
+
+.awesome .awesome_title p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #17202a;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+
+.awesome .awe_body_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.awesome .awe_body_card .awe_card_box {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.awesome .awe_body_card .awe_card_box b {
+  font-weight: 600;
+  font-size: 60px;
+  color: #008000;
+}
+
+.awesome .awe_body_card .awe_card_box small {
+  font-weight: 500;
+  font-size: 20px;
+  color: #17202a;
+  opacity: 0.8;
+  margin-top: 10px;
 }
