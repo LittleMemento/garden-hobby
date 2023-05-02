@@ -171,6 +171,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0;
 }
 
 .awesome .awesome_title {
@@ -179,7 +180,6 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 50px;
 }
 
 .awesome .awesome_title h3 {
@@ -230,4 +230,63 @@ button {
   color: #17202a;
   opacity: 0.8;
   margin-top: 10px;
+}
+
+.gardener {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.gardener .gardener_img_side {
+  width: 50%;
+}
+
+.gardener .gardener_img_side img {
+  width: 100%;
+}
+
+.gardener .gardener_text_side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gardener .gardener_text_side h3 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #17202a;
+  letter-spacing: 1px;
+}
+
+.gardener .gardener_text_side p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #17202a;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+
+.gardener .gardener_text_side .btn_read {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 15px 60px;
+  background-color: #008000;
+}
+
+.gardener .gardener_text_side .btn_read small {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.gardener .gardener_text_side .btn_read i {
+  font-size: 30px;
+  margin-left: 10px;
 }
