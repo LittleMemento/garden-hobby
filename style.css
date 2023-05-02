@@ -242,7 +242,7 @@ button {
 }
 
 .gardener .gardener_img_side {
-  width: 50%;
+  width: 45%;
 }
 
 .gardener .gardener_img_side img {
@@ -289,4 +289,128 @@ button {
 .gardener .gardener_text_side .btn_read i {
   font-size: 30px;
   margin-left: 10px;
+}
+
+.plants_cards {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.plants_cards .plancard_title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plants_cards .plancard_title h3 {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #17202a;
+}
+
+.plants_cards .plancard_title p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #17202a;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+
+.plants_cards .plancard_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.plants_cards .plancard_block .plancard_box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.plants_cards .plancard_block .plancard_box img {
+  width: 50%;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.plants_cards .plancard_block .plancard_box h4 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #17202a;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.plants_cards .plancard_block .plancard_box .rank {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.plants_cards .plancard_block .plancard_box .rank i {
+  font-size: 25px;
+  color: #ff0;
+  margin-right: 5px;
+}
+
+.plants_cards .plancard_block .plancard_box .rank small {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #17202a;
+  opacity: 0.8;
+}
+
+.plants_cards .plancard_block .plancard_box .price_cart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.plants_cards .plancard_block .plancard_box .price_cart .price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.plants_cards .plancard_block .plancard_box .price_cart .price h6 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #17202a;
+  opacity: 0.8;
+}
+
+.plants_cards .plancard_block .plancard_box .price_cart .price b {
+  font-weight: 600;
+  font-size: 20px;
+  color: #008000;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.plants_cards .plancard_block .plancard_box .price_cart .btn_add_cart {
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
